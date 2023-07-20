@@ -374,4 +374,7 @@ nav{
         width: auto;
         float: left;
     }
+    .more-games{
+        margin: 0 50px 100px 50px;
+    }
 }   
