@@ -377,4 +377,13 @@ nav{
     .more-games{
         margin: 0 50px 100px 50px;
     }
+    .link{
+        flex-wrap: wrap;
+    }
+    .social-link{
+        flex-wrap: wrap;
+    }
+    .other-links{
+        flex-wrap: wrap;
+    }
 }   
