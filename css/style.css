@@ -304,3 +304,70 @@ font-weight: 500;
 line-height: normal;
 }
 /* footer end */
+
+
+
+/* media query start  */
+
+@media screen and (max-width: 425px) {
+    nav{
+        box-shadow: none;
+    }
+    .nav-container{
+    flex-direction: column;    
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
+    .nav-items-container .login-btn{
+        padding: 10px 3px;
+    }
+
+    .banner-container{
+        display: block;
+    }
+    .banner-text{
+        width: auto;
+        padding: 80px;
+    }
+    .banner-img-img{
+        margin: 0 34px;
+        width: 84%;
+        height: auto;
+    }
+
+    .online-header > h1{
+        /* font-size: 15px; */
+    }
+
+    .online-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .instant-text{
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .play-inatently{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+    }
+    .instant-text p{
+        margin: 16px 25px;
+    }
+    .horse-img img{
+        width: 68%;
+        margin: 0 36px 0 100px;
+        height: auto;
+    }
+    .billi{
+        right: 250px;
+        top: 420px;
+    }
+    .billi img{
+        height: 150px;
+        width: auto;
+    }
+}
