@@ -44,7 +44,7 @@ nav{
 }
 .logo-container p{
     font-size: 30px;
-  
+    font-weight: bold;
 }
 
 .hive-section{
@@ -276,7 +276,6 @@ nav{
 
 }
 .social-img{
-    width: 30px;
     height: 30px;
 }
 .other-links{
